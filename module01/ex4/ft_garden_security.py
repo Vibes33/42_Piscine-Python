@@ -3,7 +3,7 @@ class SecurePlant:
         self._name = name
         self._height = 0
         self._age = 0
-        
+
         # Use setters to initialize with validation
         self.set_height(initial_height, verbose=False)
         self.set_age(initial_age, verbose=False)
@@ -21,7 +21,7 @@ class SecurePlant:
                 print(f"Invalid operation attempted: height {height}cm [REJECTED]")
                 print("Security: Negative height rejected")
             return
-        
+
         self._height = height
         if verbose:
             print(f"Height updated: {height}cm [OK]")

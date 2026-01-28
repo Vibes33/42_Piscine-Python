@@ -24,7 +24,8 @@ class PrizeFlower(FloweringPlant):
         self.points = points
 
     def __str__(self):
-        return f"{self.name}: {self.height}cm, {self.color} flowers (blooming), Prize points: {self.points}"
+        return (f"{self.name}: {self.height}cm, {self.color} flowers "
+                f"(blooming), Prize points: {self.points}")
 
 class GardenManager:
     _garden_count = 0
@@ -69,13 +70,15 @@ class GardenManager:
         print("Plants in garden:")
         for plant in self.plants:
             print(f"- {plant}")
-        
+
         # Use nested class for stats
         stats = self.GardenStats(self.plants)
         reg, flow, prize = stats.count_plant_types()
-        
-        print(f"Plants added: {len(self.plants)}, Total growth: {self._total_growth_tracking}cm")
-        print(f"Plant types: {reg} regular, {flow} flowering, {prize} prize flowers")
+
+        print(f"Plants added: {len(self.plants)}, "
+              f"Total growth: {self._total_growth_tracking}cm")
+        print(f"Plant types: {reg} regular, {flow} flowering, "
+              f"{prize} prize flowers")
 
     @staticmethod
     def validate_height(height):
@@ -84,7 +87,7 @@ class GardenManager:
 
     @classmethod
     def create_garden_network(cls):
-        # Works on the manager type itself
+        # Works on the manager type itself 
         # Simulating network creation/status
         print("Garden scores - Alice: 218, Bob: 92")
         print(f"Total gardens managed: {cls._garden_count}")
