@@ -15,21 +15,21 @@ class WaterError(GardenError):
 class GardenManager:
     def __init__(self):
         self.plants = []
-        self.water_tank_level = 20 # Liters
+        self.water_tank_level = 20 #Liters
 
     def add_plant(self, name):
         """Adds a plant to the garden. Raises PlantError if name is invalid."""
         try:
             if not name:
                 raise PlantError("Plant name cannot be empty!")
-            
+
             self.plants.append(name)
             print(f"Added {name} successfully")
-            
+
         except PlantError as e:
             # We catch it here to print a message, but we could also let it bubble up
             print(f"Error adding plant: {e}")
-    
+
     def water_all_plants(self):
         """Demonstrates finally block usage"""
         print("Opening watering system")
@@ -81,20 +81,19 @@ def test_garden_management():
         manager.check_health("tomato", 5, 8)
     except GardenError as e:
         print(f"Error checking tomato: {e}")
-        
     # Bad case
     try:
         manager.check_health("lettuce", 15, 8)
     except GardenError as e:
         print(f"Error checking lettuce: {e}")
-    
+
     # 4. Error Recovery Demo
     print("\nTesting error recovery...")
     # Drain the tank manually to force an error
     manager.water_tank_level = 0
     manager.water_all_plants() # Should catch error and recover
     print("System recovered and continuing...")
-    
+
     print("\nGarden management system test complete!")
 
 if __name__ == "__main__":

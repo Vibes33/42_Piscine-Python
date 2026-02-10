@@ -36,7 +36,7 @@ def print_achievement_analytics(players):
     if "alice" in players and "bob" in players:
         alice_set = players["alice"]
         bob_set = players["bob"]
-        
+
         # Intersection: What do they share?
         common_ab = alice_set.intersection(bob_set)
         print(f"Alice vs Bob common: {sorted(common_ab)}")

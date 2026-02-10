@@ -1,6 +1,6 @@
 def main():
     print("=== Game Analytics Dashboard ===")
-    
+   
     # Sample Data (Raw Database)
     # A list of dictionaries representing player records
     data = [
@@ -10,7 +10,7 @@ def main():
         {"name": "diana",   "score": 2050, "status": "active",   "region": "central", "achievements": ["boss_slayer", "collector"]},
         {"name": "eve",     "score": 900,  "status": "banned",   "region": "east",    "achievements": []}
     ]
-    
+
     # 1. LIST COMPREHENSIONS (Transformer les listes)
     # Syntaxe: [ expression for item in list if condition ]
     print("\n=== List Comprehension Examples ===")

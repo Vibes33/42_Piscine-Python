@@ -13,7 +13,7 @@ def game_event_generator(n_events):
         name = random.choice(names)
         action = random.choice(event_types)
         level = random.randint(1, 20)
-        
+
         # Yield creates the value on demand without storing the whole list list
         yield f"Player {name} (level {level}) {action}"
 
@@ -45,7 +45,7 @@ def main():
     # 1. Start the generator
     # Warning: calling the function just returns a generator object, it doesn't run code yet!
     stream = game_event_generator(n_events)
-    
+   
     # Analytics Storage
     stats = {
         "high_level": 0,
@@ -53,7 +53,6 @@ def main():
         "level_up": 0,
         "total": 0
     }
-    
     start_time = time.time()
     
     # 2. Process the stream
@@ -111,3 +110,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
