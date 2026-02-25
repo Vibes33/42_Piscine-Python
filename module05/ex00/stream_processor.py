@@ -31,7 +31,7 @@ class NumericProcessor(DataProcessor):
     def process(self, data: Any) -> str:
         if not self.validate(data):
             raise ValueError("Invalid data provided to NumericProcessor")
-        
+
         try:
             total = sum(data)
             avg = total / len(data) if data else 0

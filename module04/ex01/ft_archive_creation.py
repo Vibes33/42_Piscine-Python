@@ -2,7 +2,7 @@ def create_archive():
     filename = "new_discovery.txt"
     print("=== CYBER ARCHIVES - PRESERVATION SYSTEM ===")
     print(f"Initializing new storage unit: {filename}")
-    
+
     file = None
     try:
         # Ouverture du fichier en mode écriture ('w' = write)

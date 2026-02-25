@@ -6,7 +6,7 @@ def recover_data():
     print(f"Accessing Storage Vault: {filename}")
     
     file = None # Initialisation de la variable file
-    
+
     try:
         # Ouverture du fichier en mode lecture ('r' = read)
         file = open(filename, "r")
