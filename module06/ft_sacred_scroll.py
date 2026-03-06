@@ -23,6 +23,6 @@ try:
 except AttributeError:
     print("alchemy.create_air(): AttributeError - not exposed")
 
-print(f"\nPackage metadata:")
+print("\nPackage metadata:")
 print(f"Version: {alchemy.__version__}")
 print(f"Author: {alchemy.__author__}")
