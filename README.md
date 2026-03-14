@@ -4,8 +4,8 @@
 ![Score M02](https://img.shields.io/badge/Module_02-100%2F100-success)
 ![Score M03](https://img.shields.io/badge/Module_03-100%2F100-success)
 ![Score M04](https://img.shields.io/badge/Module_04-100%2F100-success)
-![Score M05](https://img.shields.io/badge/Module_05--_pending-yellow)
-![Score M06](https://img.shields.io/badge/Module_06--_pending-yellow)
+![Score M05](https://img.shields.io/badge/Module_04-100%2F100-success)
+![Score M06](https://img.shields.io/badge/Module_04-100%2F100-success)
 ![Score M07](https://img.shields.io/badge/Module_07--_pending-yellow)
 ![Score M08](https://img.shields.io/badge/Module_08--_pending-yellow)
 ![Score M09](https://img.shields.io/badge/Module_09--_pending-yellow)
@@ -40,7 +40,7 @@ The piscine covers:
 - ⚙️ **Modules 08–09**: Tooling (virtual environments, config, Pydantic)
 - 🧙 **Module 10**: Functional programming (lambdas, closures, decorators)
 
-**Current progress: 4/10 modules validated at 100/100.**
+**Current progress: 7/11 modules validated at 100/100.**
 
 ## 📁 Project Structure
 
