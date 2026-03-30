@@ -6,10 +6,10 @@
 ![Score M04](https://img.shields.io/badge/Module_04-100%2F100-success)
 ![Score M05](https://img.shields.io/badge/Module_05-100%2F100-success)
 ![Score M06](https://img.shields.io/badge/Module_06-100%2F100-success)
-![Score M07](https://img.shields.io/badge/Module_07--_pending-yellow)
-![Score M08](https://img.shields.io/badge/Module_08--_pending-yellow)
-![Score M09](https://img.shields.io/badge/Module_09--_pending-yellow)
-![Score M10](https://img.shields.io/badge/Module_10--_pending-yellow)
+![Score M07](https://img.shields.io/badge/Module_07-100%2F100-success)
+![Score M08](https://img.shields.io/badge/Module_08-100%2F100-success)
+![Score M09](https://img.shields.io/badge/Module_09-100%2F100-success)
+![Score M10](https://img.shields.io/badge/Module_10-100%2F100-success)
 ![Language](https://img.shields.io/badge/Language-Python-3776AB?logo=python&logoColor=white)
 
 ## 📋 Table of Contents
